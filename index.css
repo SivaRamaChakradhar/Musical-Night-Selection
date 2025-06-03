@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    height: 100vh;
+    font-family: "Roboto";
+    background-size: cover;
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/musical-night-bg.png");
+    border: 1px solid gray;
+}
+
+.card-container {
+    border: 1px solid gray;
+    border-radius: 24px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    width: 92%;
+    max-width: 800px;
+}
+
+.heading {
+    padding-left: 20px;
+    font-size: 32px;
+    color: #12022f;
+}
+
+.image {
+    border-radius: 24px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-body {
+    padding: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid lightgray;
+    height: 60vh;
+    overflow: auto;
+}
+
+.heading2 {
+    color: #12022f;
+    font-size: 20px;
+}
+
+.para {
+    color: #594d6d;
+}
+
+.image1 {
+    height: 100px;
+    width: 150px;
+    max-width: 300px;
+}
